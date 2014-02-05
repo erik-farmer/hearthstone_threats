@@ -16,15 +16,15 @@
       <div class="container">
         <div class="navbar-inner">
           <ul class="nav">
-            <li> {{#link-to 'druid'}} Druid {{/link-to}}</li>
-            <li> {{#link-to 'hunter'}} Hunter {{/link-to}}</li>
-            <li> {{#link-to 'mage'}} Mage {{/link-to}}</li>
-            <li> {{#link-to 'paladin'}} Paladin {{/link-to}}</li>
-            <li> {{#link-to 'priest'}} Priest {{/link-to}}</li>
-            <li> {{#link-to 'rogue'}} Rogue {{/link-to}}</li>
-            <li> {{#link-to 'shaman'}} Shaman {{/link-to}}</li>
-            <li> {{#link-to 'warlock'}} Warlock {{/link-to}}</li>
-            <li> {{#link-to 'warrior'}} Warrior {{/link-to}}</li>
+            <li> {{#link-to 'druid' }} <img src="img/druid_icon.png"> Druid {{/link-to}}</li>
+            <li> {{#link-to 'hunter'}} <img src="img/hunter_icon.png"> Hunter {{/link-to}}</li>
+            <li> {{#link-to 'mage'}} <img src="img/mage_icon.png"> Mage {{/link-to}}</li>
+            <li> {{#link-to 'paladin'}} <img src="img/paladin_icon.png"> Paladin {{/link-to}}</li>
+            <li> {{#link-to 'priest'}} <img src="img/priest_icon.png"> Priest {{/link-to}}</li>
+            <li> {{#link-to 'rogue'}} <img src="img/rogue_icon.png"> Rogue {{/link-to}}</li>
+            <li> {{#link-to 'shaman'}} <img src="img/shaman_icon.png"> Shaman {{/link-to}}</li>
+            <li> {{#link-to 'warlock'}} <img src="img/warlock_icon.png"> Warlock {{/link-to}}</li>
+            <li> {{#link-to 'warrior'}} <img src="img/warrior_icon.png"> Warrior {{/link-to}}</li>
           </ul>
         </div>
       </div>
@@ -34,153 +34,171 @@
   </script>
 
   <script type="text/x-handlebars" id="druid">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="hunter">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="mage">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="paladin">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="priest">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="rogue">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="shaman">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="warlock">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
   </script>
 
   <script type="text/x-handlebars" id="warrior">
-    <table id="druid_table" class="table">
+    <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
         <th>Card Name</th>
         <th>Description</th>
+        <th>Used</th>
       </tr>
       {{#each}}
         <tr>
           <td>{{mana_cost}}</td>
           <td>{{card_name}}</td>
           <td>{{description}}</td>
+          <td><input type="checkbox"><input type="checkbox"></td>
         </tr>
       {{/each}}
     </table>
@@ -203,7 +221,6 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
-</script>
+  </script>
 </body>
 </html>

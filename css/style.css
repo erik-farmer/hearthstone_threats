@@ -2,3 +2,7 @@
 .ember-application {
     margin: 20px;
 }
+
+.nav li a {
+  float: right;
+}
