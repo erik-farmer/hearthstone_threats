@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hearthstone Threat List</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Spells by Class</h1>
+  <small>Select a class type to see what your enemy can play against you the current/next turn</small>
+  <script type="text/x-handlebars">
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar-inner">
+          <ul class="nav">
+            <li> {{#link-to 'druid'}} Druid {{/link-to}}</li>
+            <li> {{#link-to 'hunter'}} Hunter {{/link-to}}</li>
+            <li> {{#link-to 'mage'}} Mage {{/link-to}}</li>
+            <li> {{#link-to 'paladin'}} Paladin {{/link-to}}</li>
+            <li> {{#link-to 'priest'}} Priest {{/link-to}}</li>
+            <li> {{#link-to 'rogue'}} Rogue {{/link-to}}</li>
+            <li> {{#link-to 'shaman'}} Shaman {{/link-to}}</li>
+            <li> {{#link-to 'warlock'}} Warlock {{/link-to}}</li>
+            <li> {{#link-to 'warrior'}} Warrior {{/link-to}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" id="druid">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="hunter">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="mage">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="paladin">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="priest">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="rogue">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="shaman">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="warlock">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script type="text/x-handlebars" id="warrior">
+    <table id="druid_table" class="table">
+      <tr>
+        <th>Mana Cost</th>
+        <th>Card Name</th>
+        <th>Description</th>
+      </tr>
+      {{#each}}
+        <tr>
+          <td>{{mana_cost}}</td>
+          <td>{{card_name}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </script>
+
+  <script src="js/libs/jquery-1.10.2.js"></script>
+  <script src="js/libs/handlebars-1.1.2.js"></script>
+  <script src="js/libs/ember-1.3.1.js"></script>
+  <script src="js/app.js"></script>
+  <!-- to activate the test runner, add the "?test" query string parameter -->
+  <script src="tests/runner.js"></script>
+</body>
+</html>
