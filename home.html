@@ -34,158 +34,42 @@
   </script>
 
   <script type="text/x-handlebars" id="druid">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="hunter">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="mage">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="paladin">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="priest">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="rogue">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="shaman">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="warlock">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Mana Cost</th>
-        <th>Card Name</th>
-        <th>Description</th>
-        <th>Used</th>
-      </tr>
-      {{#each}}
-        <tr>
-          <td>{{mana_cost}}</td>
-          <td>{{card_name}}</td>
-          <td>{{description}}</td>
-          <td><input type="checkbox"><input type="checkbox"></td>
-        </tr>
-      {{/each}}
-    </table>
+    {{partial "table"}}
   </script>
 
   <script type="text/x-handlebars" id="warrior">
+    {{partial "table"}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name='_table'>
     <table class="table table-striped table-condensed">
       <tr>
         <th>Mana Cost</th>
